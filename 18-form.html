@@ -1,1 +1,40 @@
-<!-- HTML 코드를 작성해 주세요. -->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>폼 관련 요소</title>
+  </head>
+  <body>
+    <h1>폼 관련 요소</h1>
+    <form action="서버 URL" method="get" id="searchForm">
+      <fieldset>
+        <legend>검색</legend>
+        <div>
+          <label for="search">자료검색</label>
+          <input
+            id="search"
+            type="search"
+            maxlength="10"
+            minlength="6"
+            placeholder="검색어를 입력하세요"
+          />
+        </div>
+      </fieldset>
+    </form>
+    <button type="submit" form="searchForm">검색</button>
+
+    <div>
+      <label for=""></label>
+      <select name="" id="">
+        <option value=""></option>
+      </select>
+    </div>
+
+    <div>
+      <label for=""></label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+  </body>
+</html>
